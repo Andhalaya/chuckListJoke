@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const fetchJokeButton = document.getElementById("fetchJoke");
   const jokeList = document.getElementById("jokeList");
   const recentJokeContainer = document.getElementById("recentJoke");
-  const savedJokes = JSON.parse(localStorage.getItem("savedJokes"));
+  const savedJokes = JSON.parse(localStorage.getItem("savedJokes")) || [];
 
   //Para cargar en la pagina los chistes guardados 
    function renderSavedJokes() {
