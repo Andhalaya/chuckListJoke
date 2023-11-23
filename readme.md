@@ -16,7 +16,7 @@ Si da tiempo podremos también hacer un botón que borre todos los items, o tamb
 - **Eliminar Chiste:** Cada chiste en la lista tiene un botón "Eliminar". Al hacer clic en este botón, se elimina el chiste de la lista y se actualiza el almacenamiento local.
 
 Podrías ser algo como esto:
-![chuck](./img/chuck.png)
+![chuck]()
 
 
 ## Estructura del Código
